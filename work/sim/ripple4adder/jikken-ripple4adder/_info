@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vfulladder
+Z0 !s110 1667979266
+!i10b 1
+!s100 96K2h;B1Nh;TTZ:bchk_H3
+I82XHe=jBPRa6HAeZiel=c1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/jikken-root/work/sim/ripple4adder
+w1667974264
+8E:/jikken-root/work/src/adder/fulladder.v
+FE:/jikken-root/work/src/adder/fulladder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1667979266.000000
+!s107 E:/jikken-root/work/src/adder/fulladder.v|
+!s90 -reportprogress|300|-work|jikken-ripple4adder|-stats=none|E:/jikken-root/work/src/adder/fulladder.v|
+!i113 1
+Z5 o-work jikken-ripple4adder
+Z6 tCvgOpt 0
+vhalfadder
+R0
+!i10b 1
+!s100 lDX<gLIV8dQU:Nf:51QR83
+I6`bN3KI<zYlKN<ll]Q_AQ3
+R1
+R2
+w1667377890
+8E:/jikken-root/work/src/adder/halfadder.v
+FE:/jikken-root/work/src/adder/halfadder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/adder/halfadder.v|
+!s90 -reportprogress|300|-work|jikken-ripple4adder|-stats=none|E:/jikken-root/work/src/adder/halfadder.v|
+!i113 1
+R5
+R6
+vripple4adder
+R0
+!i10b 1
+!s100 kY2bn2E@:VRieNUX2i5dm1
+I1VaNO<AUMj1Dn4cgJ>GU60
+R1
+R2
+w1667979250
+8E:/jikken-root/work/src/adder/ripple4adder.v
+FE:/jikken-root/work/src/adder/ripple4adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/adder/ripple4adder.v|
+!s90 -reportprogress|300|-work|jikken-ripple4adder|-stats=none|E:/jikken-root/work/src/adder/ripple4adder.v|
+!i113 1
+R5
+R6
+vtest_ripple4adder
+R0
+!i10b 1
+!s100 o;T;e=H]oON:lLU7F41fz3
+I;k2FXFebczJ7mCE98;FQQ0
+R1
+R2
+w1667978987
+8E:/jikken-root/work/src/adder/test_ripple4adder.v
+FE:/jikken-root/work/src/adder/test_ripple4adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/adder/test_ripple4adder.v|
+!s90 -reportprogress|300|-work|jikken-ripple4adder|-stats=none|E:/jikken-root/work/src/adder/test_ripple4adder.v|
+!i113 1
+R5
+R6

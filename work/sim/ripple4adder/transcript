@@ -1,0 +1,101 @@
+# Compile of test_ripple4adder.v was successful.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of ripple4adder.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui jikken-ripple4adder.test_ripple4adder
+# vsim -gui jikken-ripple4adder.test_ripple4adder 
+# Start time: 16:21:58 on Nov 09,2022
+# Loading jikken-ripple4adder.test_ripple4adder
+# Loading jikken-ripple4adder.ripple4adder
+# Loading jikken-ripple4adder.halfadder
+# Loading jikken-ripple4adder.fulladder
+# ** Warning: (vsim-3015) E:/jikken-root/work/src/adder/test_ripple4adder.v(5): [PCDPC] - Port size (1) does not match connection size (4) for port 'CRY3'. The port definition is at: E:/jikken-root/work/src/adder/ripple4adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /test_ripple4adder/ripple4adder File: E:/jikken-root/work/src/adder/ripple4adder.v
+# ** Fatal: (vsim-3365) E:/jikken-root/work/src/adder/ripple4adder.v(7): Too many port connections. Expected 4, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /test_ripple4adder/ripple4adder/HA0 File: E:/jikken-root/work/src/adder/halfadder.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:21:58 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -gui jikken-ripple4adder.test_ripple4adder
+# vsim -gui jikken-ripple4adder.test_ripple4adder 
+# Start time: 16:22:55 on Nov 09,2022
+# Loading jikken-ripple4adder.test_ripple4adder
+# Loading jikken-ripple4adder.ripple4adder
+# Loading jikken-ripple4adder.halfadder
+# Loading jikken-ripple4adder.fulladder
+# ** Warning: (vsim-3015) E:/jikken-root/work/src/adder/test_ripple4adder.v(5): [PCDPC] - Port size (1) does not match connection size (4) for port 'CRY3'. The port definition is at: E:/jikken-root/work/src/adder/ripple4adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /test_ripple4adder/ripple4adder File: E:/jikken-root/work/src/adder/ripple4adder.v
+# ** Fatal: (vsim-3365) E:/jikken-root/work/src/adder/ripple4adder.v(7): Too many port connections. Expected 4, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /test_ripple4adder/ripple4adder/HA0 File: E:/jikken-root/work/src/adder/halfadder.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:22:55 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -gui jikken-ripple4adder.test_ripple4adder
+# vsim -gui jikken-ripple4adder.test_ripple4adder 
+# Start time: 16:23:54 on Nov 09,2022
+# Loading jikken-ripple4adder.test_ripple4adder
+# Loading jikken-ripple4adder.ripple4adder
+# Loading jikken-ripple4adder.halfadder
+# Loading jikken-ripple4adder.fulladder
+# ** Warning: (vsim-3015) E:/jikken-root/work/src/adder/test_ripple4adder.v(5): [PCDPC] - Port size (1) does not match connection size (4) for port 'CRY3'. The port definition is at: E:/jikken-root/work/src/adder/ripple4adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /test_ripple4adder/ripple4adder File: E:/jikken-root/work/src/adder/ripple4adder.v
+# ** Fatal: (vsim-3365) E:/jikken-root/work/src/adder/ripple4adder.v(7): Too many port connections. Expected 4, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /test_ripple4adder/ripple4adder/HA0 File: E:/jikken-root/work/src/adder/halfadder.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:23:55 on Nov 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of test_ripple4adder.v was successful.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of ripple4adder.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of test_ripple4adder.v was successful.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of ripple4adder.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui jikken-ripple4adder.test_ripple4adder
+# vsim -gui jikken-ripple4adder.test_ripple4adder 
+# Start time: 16:30:24 on Nov 09,2022
+# Loading jikken-ripple4adder.test_ripple4adder
+# Loading jikken-ripple4adder.ripple4adder
+# Loading jikken-ripple4adder.halfadder
+# Loading jikken-ripple4adder.fulladder
+# ** Fatal: (vsim-3365) E:/jikken-root/work/src/adder/ripple4adder.v(7): Too many port connections. Expected 4, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /test_ripple4adder/ripple4adder/HA0 File: E:/jikken-root/work/src/adder/halfadder.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:30:24 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of test_ripple4adder.v was successful.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of ripple4adder.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui jikken-ripple4adder.test_ripple4adder
+# vsim -gui jikken-ripple4adder.test_ripple4adder 
+# Start time: 16:34:48 on Nov 09,2022
+# Loading jikken-ripple4adder.test_ripple4adder
+# Loading jikken-ripple4adder.ripple4adder
+# Loading jikken-ripple4adder.halfadder
+# Loading jikken-ripple4adder.fulladder
+add wave -position end  sim:/test_ripple4adder/a
+add wave -position end  sim:/test_ripple4adder/b
+add wave -position end  sim:/test_ripple4adder/sum
+add wave -position end  sim:/test_ripple4adder/carry
+run -all
+#                    0 2 3 5 0
+#                   50 4 7 b 0
+#                  100 5 a f 0
+#                  150 6 e 4 1
+#                  200 d 9 6 1
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_ripple4adder.v(14)
+#    Time: 250 ps  Iteration: 0  Instance: /test_ripple4adder
+# 1
+# Break in Module test_ripple4adder at E:/jikken-root/work/src/adder/test_ripple4adder.v line 14

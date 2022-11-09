@@ -1,9 +1,8 @@
-module test_ripple4adder;
+module test_adder4_behavior;
 reg [3:0] a, b;
-wire [3:0] sum;
-wire carry;
+wire [4:0] sum;
 
-ripple4adder ripple4adder(a, b, sum, carry);
+adder4_behavior adder4_behavior(a, b, sum);
 
 initial begin
         a = 4'h2; b = 4'h3;
@@ -15,7 +14,7 @@ initial begin
 end
 
 initial begin
-    $monitor("%t %h %h %h %h" , $time, a, b, sum, carry );
+    $monitor("%t %h %h %h" , $time, a, b, sum);
 end
     
 endmodule

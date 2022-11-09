@@ -1,0 +1,23 @@
+# Compile of adder4_behavior.v was successful.
+# Compile of test_adder4_behavior.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui jikken-adder4_behavior.test_adder4_behavior
+# vsim -gui jikken-adder4_behavior.test_adder4_behavior 
+# Start time: 17:00:04 on Nov 09,2022
+# Loading jikken-adder4_behavior.test_adder4_behavior
+# Loading jikken-adder4_behavior.adder4_behavior
+add wave -position end  sim:/test_adder4_behavior/a
+add wave -position end  sim:/test_adder4_behavior/b
+add wave -position end  sim:/test_adder4_behavior/sum
+run -all
+#                    0 2 3 05
+#                   50 4 7 0b
+#                  100 5 a 0f
+#                  150 6 e 14
+#                  200 d 9 16
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_adder4_behavior.v(13)
+#    Time: 250 ps  Iteration: 0  Instance: /test_adder4_behavior
+# 1
+# Break in Module test_adder4_behavior at E:/jikken-root/work/src/adder/test_adder4_behavior.v line 13
+# End time: 17:17:48 on Nov 09,2022, Elapsed time: 0:17:44
+# Errors: 0, Warnings: 0

@@ -1,0 +1,22 @@
+E:/jikken-root/work/src/adder/test_ripple4adder.v {1 {vlog -work jikken-ripple4adder -stats=none E:/jikken-root/work/src/adder/test_ripple4adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_ripple4adder
+
+Top level modules:
+	test_ripple4adder
+
+} {} {}} E:/jikken-root/work/src/adder/halfadder.v {1 {vlog -work jikken-ripple4adder -stats=none E:/jikken-root/work/src/adder/halfadder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module halfadder
+
+Top level modules:
+	halfadder
+
+} {} {}} E:/jikken-root/work/src/adder/fulladder.v {1 {vlog -work jikken-ripple4adder -stats=none E:/jikken-root/work/src/adder/fulladder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}}

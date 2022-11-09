@@ -26,3 +26,5 @@ run -all
 #    Time: 400 ps  Iteration: 0  Instance: /test_fulladder
 # 1
 # Break in Module test_fulladder at E:/jikken-root/work/src/adder/test_fulladder.v line 16
+# End time: 16:09:50 on Nov 09,2022, Elapsed time: 0:46:42
+# Errors: 0, Warnings: 0

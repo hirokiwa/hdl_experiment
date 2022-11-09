@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vadder4_behavior
+Z0 !s110 1667980775
+!i10b 1
+!s100 8:jg[a2Y7F[Y]Fdi7In=b3
+I=Bfh<UU:dX310Z<Fe;AS53
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/jikken-root/work/sim/adder4_behavior
+w1667980487
+8E:/jikken-root/work/src/adder/adder4_behavior.v
+FE:/jikken-root/work/src/adder/adder4_behavior.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1667980775.000000
+!s107 E:/jikken-root/work/src/adder/adder4_behavior.v|
+!s90 -reportprogress|300|-work|jikken-adder4_behavior|-stats=none|E:/jikken-root/work/src/adder/adder4_behavior.v|
+!i113 1
+Z5 o-work jikken-adder4_behavior
+Z6 tCvgOpt 0
+vtest_adder4_behavior
+R0
+!i10b 1
+!s100 Akj3hSgQ8hzV1bXJMAVG43
+ITEL_@L`E]4565]Ue]zBJ32
+R1
+R2
+w1667980599
+8E:/jikken-root/work/src/adder/test_adder4_behavior.v
+FE:/jikken-root/work/src/adder/test_adder4_behavior.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/adder/test_adder4_behavior.v|
+!s90 -reportprogress|300|-work|jikken-adder4_behavior|-stats=none|E:/jikken-root/work/src/adder/test_adder4_behavior.v|
+!i113 1
+R5
+R6
