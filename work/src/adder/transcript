@@ -1,0 +1,55 @@
+# Compile of halfadder.v failed with 1 errors.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of halfadder.v failed with 4 errors.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 2 failed with 5 errors.
+# Compile of halfadder.v failed with 4 errors.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 2 failed with 5 errors.
+# Compile of halfadder.v failed with 4 errors.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 2 failed with 5 errors.
+# Compile of halfadder.v failed with 4 errors.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 2 failed with 5 errors.
+# Compile of halfadder.v was successful.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of halfadder.v was successful.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of halfadder.v was successful.
+# Compile of test_halfadder.v failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of halfadder.v was successful.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of halfadder.v was successful.
+# Compile of test_halfadder.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of halfadder.v was successful.
+# Compile of test_halfadder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.test_halfadder
+# vsim -gui work.test_halfadder 
+# Start time: 17:44:50 on Nov 02,2022
+# Loading work.test_halfadder
+# Loading work.halfadder
+add wave -position end  sim:/test_halfadder/a
+add wave -position end  sim:/test_halfadder/b
+add wave -position end  sim:/test_halfadder/sum
+add wave -position end  sim:/test_halfadder/carry
+run -all
+#                    0 0 0 0 0
+#                   50 1 0 1 0
+#                  100 0 0 0 0
+#                  150 0 1 1 0
+#                  200 1 0 1 0
+#                  250 1 1 0 1
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_halfadder.v(15)
+#    Time: 300 ps  Iteration: 0  Instance: /test_halfadder
+# 1
+# Break in Module test_halfadder at E:/jikken-root/work/src/adder/test_halfadder.v line 15
+# End time: 17:51:55 on Nov 02,2022, Elapsed time: 0:07:05
+# Errors: 0, Warnings: 0

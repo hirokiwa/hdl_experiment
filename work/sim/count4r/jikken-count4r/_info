@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vcount4r
+Z0 !s110 1667373813
+!i10b 1
+!s100 HRid8BD<VzfAY0U0iP1VK1
+I1Rz4M0?ee0zBGa^_Ci]Wd1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/jikken-root/work/sim/count4r
+w1667373777
+8E:/jikken-root/work/src/counter/count4r.v
+FE:/jikken-root/work/src/counter/count4r.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1667373813.000000
+!s107 E:/jikken-root/work/src/counter/count4r.v|
+!s90 -reportprogress|300|-work|jikken-count4r|-stats=none|E:/jikken-root/work/src/counter/count4r.v|
+!i113 1
+Z5 o-work jikken-count4r
+Z6 tCvgOpt 0
+vtestcount4r
+R0
+!i10b 1
+!s100 71:TgV09ha6IOmQ5J3GQ43
+IS13YIb[5U7g:igna5giTm0
+R1
+R2
+w1667373745
+8E:/jikken-root/work/src/counter/testcount4r.v
+FE:/jikken-root/work/src/counter/testcount4r.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/counter/testcount4r.v|
+!s90 -reportprogress|300|-work|jikken-count4r|-stats=none|E:/jikken-root/work/src/counter/testcount4r.v|
+!i113 1
+R5
+R6
