@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vfulladder
+Z0 !s110 1667974902
+!i10b 1
+!s100 96K2h;B1Nh;TTZ:bchk_H3
+I3BnN`odi125c9V7_NP@=o3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/jikken-root/work/sim/fulladder
+w1667974264
+8E:/jikken-root/work/src/adder/fulladder.v
+FE:/jikken-root/work/src/adder/fulladder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1667974902.000000
+!s107 E:/jikken-root/work/src/adder/fulladder.v|
+!s90 -reportprogress|300|-work|jikken-fulladder|-stats=none|E:/jikken-root/work/src/adder/fulladder.v|
+!i113 1
+Z5 o-work jikken-fulladder
+Z6 tCvgOpt 0
+vhalfadder
+R0
+!i10b 1
+!s100 lDX<gLIV8dQU:Nf:51QR83
+IlBJYW8cOGA094DR5`;>5K1
+R1
+R2
+w1667377890
+8E:/jikken-root/work/src/adder/halfadder.v
+FE:/jikken-root/work/src/adder/halfadder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1667974901.000000
+!s107 E:/jikken-root/work/src/adder/halfadder.v|
+!s90 -reportprogress|300|-work|jikken-fulladder|-stats=none|E:/jikken-root/work/src/adder/halfadder.v|
+!i113 1
+R5
+R6
+vtest_fulladder
+R0
+!i10b 1
+!s100 Y>[b^lH19mo?ZCEW8[UCd0
+IJC4RCL=Y=5bJH6GWS[H<E2
+R1
+R2
+w1667974262
+8E:/jikken-root/work/src/adder/test_fulladder.v
+FE:/jikken-root/work/src/adder/test_fulladder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/adder/test_fulladder.v|
+!s90 -reportprogress|300|-work|jikken-fulladder|-stats=none|E:/jikken-root/work/src/adder/test_fulladder.v|
+!i113 1
+R5
+R6

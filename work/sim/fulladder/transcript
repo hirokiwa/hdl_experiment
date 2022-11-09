@@ -1,0 +1,28 @@
+# Compile of halfadder.v was successful.
+# Compile of test_fulladder.v was successful.
+# Compile of fulladder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui jikken-fulladder.test_fulladder
+# vsim -gui jikken-fulladder.test_fulladder 
+# Start time: 15:23:08 on Nov 09,2022
+# Loading jikken-fulladder.test_fulladder
+# Loading jikken-fulladder.fulladder
+# Loading jikken-fulladder.halfadder
+add wave -position end  sim:/test_fulladder/a
+add wave -position end  sim:/test_fulladder/b
+add wave -position end  sim:/test_fulladder/cin
+add wave -position end  sim:/test_fulladder/sum
+add wave -position end  sim:/test_fulladder/carry
+run -all
+#                    0 0 0 0 0 0
+#                   50 0 1 0 1 0
+#                  100 1 0 0 1 0
+#                  150 1 1 0 0 1
+#                  200 0 0 1 1 0
+#                  250 0 1 1 0 1
+#                  300 1 0 1 0 1
+#                  350 1 1 1 1 1
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_fulladder.v(16)
+#    Time: 400 ps  Iteration: 0  Instance: /test_fulladder
+# 1
+# Break in Module test_fulladder at E:/jikken-root/work/src/adder/test_fulladder.v line 16
