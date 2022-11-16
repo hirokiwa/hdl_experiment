@@ -1,0 +1,291 @@
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v failed with 2 errors.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v failed with 2 errors.
+# Compile of carrydetect.v was successful.
+# 6 compiles, 2 failed with 4 errors.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v failed with 2 errors.
+# Compile of carrydetect.v was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v was successful.
+# Compile of carrydetect.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v was successful.
+# Compile of carrydetect.v was successful.
+# Compile of test_BCDTOP.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui jikken-BCDTOP.test_BCDTOP
+# vsim -gui jikken-BCDTOP.test_BCDTOP 
+# Start time: 15:42:56 on Nov 16,2022
+# Loading jikken-BCDTOP.test_BCDTOP
+# Loading jikken-BCDTOP.BCDTOP
+# Loading jikken-BCDTOP.ripple4adder
+# Loading jikken-BCDTOP.halfadder
+# Loading jikken-BCDTOP.fulladder
+# Loading jikken-BCDTOP.carrydetect
+# Loading jikken-BCDTOP.hosei6
+# ** Warning: (vsim-3017) E:/jikken-root/work/src/adder/BCDTOP.v(8): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /test_BCDTOP/BCDTOP/carrydetect File: E:/jikken-root/work/src/adder/carrydetect.v
+# ** Warning: (vsim-3722) E:/jikken-root/work/src/adder/BCDTOP.v(8): [TFMPC] - Missing connection for port 'detect'.
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -all
+#                    0 0 0 X z
+#                   50 3 5 X z
+#                  100 4 6 X z
+#                  150 9 9 X z
+#                  200 7 6 X z
+#                  250 1 8 X z
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_BCDTOP.v(14)
+#    Time: 300 ps  Iteration: 0  Instance: /test_BCDTOP
+# 1
+# Break in Module test_BCDTOP at E:/jikken-root/work/src/adder/test_BCDTOP.v line 14
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v was successful.
+# Compile of carrydetect.v was successful.
+# Compile of test_BCDTOP.v was successful.
+# 7 compiles, 0 failed with no errors.
+run -all
+vsim -gui jikken-BCDTOP.test_BCDTOP
+# End time: 15:53:53 on Nov 16,2022, Elapsed time: 0:10:57
+# Errors: 0, Warnings: 2
+# vsim -gui jikken-BCDTOP.test_BCDTOP 
+# Start time: 15:53:53 on Nov 16,2022
+# Loading jikken-BCDTOP.test_BCDTOP
+# Loading jikken-BCDTOP.BCDTOP
+# Loading jikken-BCDTOP.ripple4adder
+# Loading jikken-BCDTOP.halfadder
+# Loading jikken-BCDTOP.fulladder
+# Loading jikken-BCDTOP.carrydetect
+# Loading jikken-BCDTOP.hosei6
+run -all
+#                    0 0 0 0 z
+#                   50 3 5 6 z
+#                  100 4 6 0 z
+#                  150 9 9 a z
+#                  200 7 6 3 z
+#                  250 1 8 7 z
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_BCDTOP.v(14)
+#    Time: 300 ps  Iteration: 0  Instance: /test_BCDTOP
+# 1
+# Break in Module test_BCDTOP at E:/jikken-root/work/src/adder/test_BCDTOP.v line 14
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -all
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -all
+vsim -gui jikken-BCDTOP.test_BCDTOP
+# End time: 15:55:52 on Nov 16,2022, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 0
+# vsim -gui jikken-BCDTOP.test_BCDTOP 
+# Start time: 15:55:52 on Nov 16,2022
+# Loading jikken-BCDTOP.test_BCDTOP
+# Loading jikken-BCDTOP.BCDTOP
+# Loading jikken-BCDTOP.ripple4adder
+# Loading jikken-BCDTOP.halfadder
+# Loading jikken-BCDTOP.fulladder
+# Loading jikken-BCDTOP.carrydetect
+# Loading jikken-BCDTOP.hosei6
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -all
+#                    0 0 0 0 z
+#                   50 3 5 6 z
+#                  100 4 6 0 z
+#                  150 9 9 a z
+#                  200 7 6 3 z
+#                  250 1 8 7 z
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_BCDTOP.v(14)
+#    Time: 300 ps  Iteration: 0  Instance: /test_BCDTOP
+# 1
+# Break in Module test_BCDTOP at E:/jikken-root/work/src/adder/test_BCDTOP.v line 14
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v failed with 6 errors.
+# Compile of carrydetect.v was successful.
+# Compile of test_BCDTOP.v was successful.
+# 7 compiles, 1 failed with 6 errors.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v was successful.
+# Compile of carrydetect.v was successful.
+# Compile of test_BCDTOP.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui jikken-BCDTOP.test_BCDTOP
+# End time: 16:20:18 on Nov 16,2022, Elapsed time: 0:24:26
+# Errors: 0, Warnings: 0
+# vsim -gui jikken-BCDTOP.test_BCDTOP 
+# Start time: 16:20:18 on Nov 16,2022
+# Loading jikken-BCDTOP.test_BCDTOP
+# Loading jikken-BCDTOP.BCDTOP
+# Loading jikken-BCDTOP.ripple4adder
+# Loading jikken-BCDTOP.halfadder
+# Loading jikken-BCDTOP.fulladder
+# Loading jikken-BCDTOP.carrydetect
+# Loading jikken-BCDTOP.hosei6
+# Load canceled
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -all
+#                    0 0 0 0 0
+#                   50 3 5 6 0
+#                  100 4 6 0 1
+#                  150 9 9 a 1
+#                  200 7 6 3 1
+#                  250 1 8 7 0
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_BCDTOP.v(14)
+#    Time: 300 ps  Iteration: 0  Instance: /test_BCDTOP
+# 1
+# Break in Module test_BCDTOP at E:/jikken-root/work/src/adder/test_BCDTOP.v line 14
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v was successful.
+# Compile of carrydetect.v was successful.
+# Compile of test_BCDTOP.v was successful.
+# 7 compiles, 0 failed with no errors.
+run -all
+vsim -gui jikken-BCDTOP.test_BCDTOP
+# End time: 16:29:14 on Nov 16,2022, Elapsed time: 0:08:56
+# Errors: 1, Warnings: 0
+# vsim -gui jikken-BCDTOP.test_BCDTOP 
+# Start time: 16:29:14 on Nov 16,2022
+# Loading jikken-BCDTOP.test_BCDTOP
+# Loading jikken-BCDTOP.BCDTOP
+# Loading jikken-BCDTOP.ripple4adder
+# Loading jikken-BCDTOP.halfadder
+# Loading jikken-BCDTOP.fulladder
+# Loading jikken-BCDTOP.carrydetect
+# Loading jikken-BCDTOP.hosei6
+# ** Warning: (vsim-3017) E:/jikken-root/work/src/adder/BCDTOP.v(8): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /test_BCDTOP/BCDTOP/carrydetect File: E:/jikken-root/work/src/adder/carrydetect.v
+# ** Warning: (vsim-3722) E:/jikken-root/work/src/adder/BCDTOP.v(8): [TFMPC] - Missing connection for port 'detect'.
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -all
+#                    0 0 0 X z
+#                   50 3 5 X z
+#                  100 4 6 X z
+#                  150 9 9 X z
+#                  200 7 6 X z
+#                  250 1 8 X z
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_BCDTOP.v(14)
+#    Time: 300 ps  Iteration: 0  Instance: /test_BCDTOP
+# 1
+# Break in Module test_BCDTOP at E:/jikken-root/work/src/adder/test_BCDTOP.v line 14
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v was successful.
+# Compile of carrydetect.v was successful.
+# Compile of test_BCDTOP.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui jikken-BCDTOP.test_BCDTOP
+# End time: 16:32:19 on Nov 16,2022, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 2
+# vsim -gui jikken-BCDTOP.test_BCDTOP 
+# Start time: 16:32:19 on Nov 16,2022
+# Loading jikken-BCDTOP.test_BCDTOP
+# Loading jikken-BCDTOP.BCDTOP
+# Loading jikken-BCDTOP.ripple4adder
+# Loading jikken-BCDTOP.halfadder
+# Loading jikken-BCDTOP.fulladder
+# Loading jikken-BCDTOP.carrydetect
+# Loading jikken-BCDTOP.hosei6
+# ** Warning: (vsim-3017) E:/jikken-root/work/src/adder/BCDTOP.v(8): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /test_BCDTOP/BCDTOP/carrydetect File: E:/jikken-root/work/src/adder/carrydetect.v
+# ** Warning: (vsim-3722) E:/jikken-root/work/src/adder/BCDTOP.v(8): [TFMPC] - Missing connection for port 'detect'.
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -all
+#                    0 0 0 X z
+#                   50 3 5 X z
+#                  100 4 6 X z
+#                  150 9 9 X z
+#                  200 7 6 X z
+#                  250 1 8 X z
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_BCDTOP.v(14)
+#    Time: 300 ps  Iteration: 0  Instance: /test_BCDTOP
+# 1
+# Break in Module test_BCDTOP at E:/jikken-root/work/src/adder/test_BCDTOP.v line 14
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of hosei6.v was successful.
+# Compile of ripple4adder.v was successful.
+# Compile of BCDTOP.v was successful.
+# Compile of carrydetect.v was successful.
+# Compile of test_BCDTOP.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui jikken-BCDTOP.test_BCDTOP
+# End time: 16:38:13 on Nov 16,2022, Elapsed time: 0:05:54
+# Errors: 0, Warnings: 2
+# vsim -gui jikken-BCDTOP.test_BCDTOP 
+# Start time: 16:38:13 on Nov 16,2022
+# Loading jikken-BCDTOP.test_BCDTOP
+# Loading jikken-BCDTOP.BCDTOP
+# Loading jikken-BCDTOP.ripple4adder
+# Loading jikken-BCDTOP.halfadder
+# Loading jikken-BCDTOP.fulladder
+# Loading jikken-BCDTOP.carrydetect
+# Loading jikken-BCDTOP.hosei6
+add wave -position end  sim:/test_BCDTOP/X
+add wave -position end  sim:/test_BCDTOP/Y
+add wave -position end  sim:/test_BCDTOP/S
+add wave -position end  sim:/test_BCDTOP/CARRY
+add wave -position end  sim:/test_BCDTOP/dummy
+run -continue
+run -all
+#                    0 0 0 0 0
+#                   50 3 5 8 0
+#                  100 4 6 0 1
+#                  150 9 9 8 1
+#                  200 7 6 3 1
+#                  250 1 8 9 0
+# ** Note: $finish    : E:/jikken-root/work/src/adder/test_BCDTOP.v(14)
+#    Time: 300 ps  Iteration: 0  Instance: /test_BCDTOP
+# 1
+# Break in Module test_BCDTOP at E:/jikken-root/work/src/adder/test_BCDTOP.v line 14

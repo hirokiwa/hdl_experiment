@@ -5,9 +5,10 @@ module BCDTOP(X, Y, S, CARRY, dummy);
     wire f0, f1, f2, f3, c3, cry;
 
     ripple4adder ripple4adder(X, Y, {f3, f2, f1, f0}, c3);
-    carrydetect carrydetect(f1, f3, f2, f3, cry);
-    hosei6 hosei6(f1, f2, cry, f3, S[3:1], dummy);
+    carrydetect carrydetect(f1, f3, f2, f3, c3, cry);
+    hosei6 hosei6(f1, f2, f3, cry, S[3:1], dummy);
 
     assign S[0] = f0;
+   assign CARRY = cry;
 
 endmodule

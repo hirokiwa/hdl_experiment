@@ -1,0 +1,43 @@
+E:/jikken-root/work/src/adder/hosei6.v {1 {vlog -work jikken-BCDTOP -stats=none {E:\jikken-root\work\src\adder\hosei6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hosei6
+
+Top level modules:
+	hosei6
+
+} {} {}} E:/jikken-root/work/src/adder/carrydetect.v {1 {vlog -work jikken-BCDTOP -stats=none E:/jikken-root/work/src/adder/carrydetect.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module carrydetect
+
+Top level modules:
+	carrydetect
+
+} {} {}} E:/jikken-root/work/src/adder/test_BCDTOP.v {1 {vlog -work jikken-BCDTOP -stats=none E:/jikken-root/work/src/adder/test_BCDTOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_BCDTOP
+
+Top level modules:
+	test_BCDTOP
+
+} {} {}} E:/jikken-root/work/src/adder/halfadder.v {1 {vlog -work jikken-BCDTOP -stats=none E:/jikken-root/work/src/adder/halfadder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module halfadder
+
+Top level modules:
+	halfadder
+
+} {} {}} E:/jikken-root/work/src/adder/fulladder.v {1 {vlog -work jikken-BCDTOP -stats=none E:/jikken-root/work/src/adder/fulladder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} E:/jikken-root/work/src/adder/ripple4adder.v {1 {vlog -work jikken-BCDTOP -stats=none E:/jikken-root/work/src/adder/ripple4adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ripple4adder
+
+Top level modules:
+	ripple4adder
+
+} {} {}}
