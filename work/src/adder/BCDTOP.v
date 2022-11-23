@@ -9,6 +9,6 @@ module BCDTOP(X, Y, S, CARRY, dummy);
     hosei6 hosei6(f1, f2, f3, cry, S[3:1], dummy);
 
     assign S[0] = f0;
-   assign CARRY = cry;
+    assign CARRY = cry;
 
 endmodule
