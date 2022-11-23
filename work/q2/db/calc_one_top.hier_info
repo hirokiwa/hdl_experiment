@@ -1,0 +1,1083 @@
+|calc_one_top
+CLK => CLK.IN1
+RST_X => RST_X.IN1
+PSW[0] => PSW[0].IN1
+PSW[1] => PSW[1].IN1
+PSW[2] => PSW[2].IN1
+PSW[3] => PSW[3].IN1
+PSW[4] => PSW[4].IN1
+PSW[5] => PSW[5].IN1
+PSW[6] => PSW[6].IN1
+PSW[7] => PSW[7].IN1
+PSW[8] => PSW[8].IN1
+PSW[9] => PSW[9].IN1
+PSW[10] => PSW[10].IN1
+PSW[11] => PSW[11].IN1
+PSW[12] => PSW[12].IN1
+PSW[13] => PSW[13].IN1
+SEG_1_OUT[0] << controller:controller_ins.SEG_1_OUT
+SEG_1_OUT[1] << controller:controller_ins.SEG_1_OUT
+SEG_1_OUT[2] << controller:controller_ins.SEG_1_OUT
+SEG_1_OUT[3] << controller:controller_ins.SEG_1_OUT
+SEG_1_OUT[4] << controller:controller_ins.SEG_1_OUT
+SEG_1_OUT[5] << controller:controller_ins.SEG_1_OUT
+SEG_1_OUT[6] << controller:controller_ins.SEG_1_OUT
+SEG_1_OUT[7] << controller:controller_ins.SEG_1_OUT
+SEG_SEL_1[0] << controller:controller_ins.SEG_SEL_1
+SEG_SEL_1[1] << controller:controller_ins.SEG_SEL_1
+SEG_SEL_1[2] << controller:controller_ins.SEG_SEL_1
+SEG_SEL_1[3] << controller:controller_ins.SEG_SEL_1
+SEG_2_OUT[0] << controller:controller_ins.SEG_2_OUT
+SEG_2_OUT[1] << controller:controller_ins.SEG_2_OUT
+SEG_2_OUT[2] << controller:controller_ins.SEG_2_OUT
+SEG_2_OUT[3] << controller:controller_ins.SEG_2_OUT
+SEG_2_OUT[4] << controller:controller_ins.SEG_2_OUT
+SEG_2_OUT[5] << controller:controller_ins.SEG_2_OUT
+SEG_2_OUT[6] << controller:controller_ins.SEG_2_OUT
+SEG_2_OUT[7] << controller:controller_ins.SEG_2_OUT
+SEG_SEL_2[0] << controller:controller_ins.SEG_SEL_2
+SEG_SEL_2[1] << controller:controller_ins.SEG_SEL_2
+SEG_SEL_2[2] << controller:controller_ins.SEG_SEL_2
+SEG_SEL_2[3] << controller:controller_ins.SEG_SEL_2
+
+
+|calc_one_top|controller:controller_ins
+CLK => CLK.IN7
+RST_X => RST_X.IN7
+PSW[0] => PSW[0].IN1
+PSW[1] => PSW[1].IN1
+PSW[2] => PSW[2].IN1
+PSW[3] => PSW[3].IN1
+PSW[4] => PSW[4].IN1
+PSW[5] => PSW[5].IN1
+PSW[6] => PSW[6].IN1
+PSW[7] => PSW[7].IN1
+PSW[8] => PSW[8].IN1
+PSW[9] => PSW[9].IN1
+PSW[10] => PSW[10].IN1
+PSW[11] => PSW[11].IN1
+PSW[12] => PSW[12].IN1
+PSW[13] => PSW[13].IN1
+SUM_DATA[0] => mux_out.DATAA
+SUM_DATA[1] => mux_out.DATAA
+SUM_DATA[2] => mux_out.DATAA
+SUM_DATA[3] => mux_out.DATAA
+SUM_DATA[4] => mux_out.DATAA
+SUM_DATA[5] => mux_out.DATAA
+SUB_DATA[0] => mux_out.DATAB
+SUB_DATA[1] => mux_out.DATAB
+SUB_DATA[2] => mux_out.DATAB
+SUB_DATA[3] => mux_out.DATAB
+SUB_DATA[4] => mux_out.DATAB
+SUB_DATA[5] => mux_out.DATAB
+A_DATA[0] <= A_DATA[0].DB_MAX_OUTPUT_PORT_TYPE
+A_DATA[1] <= A_DATA[1].DB_MAX_OUTPUT_PORT_TYPE
+A_DATA[2] <= A_DATA[2].DB_MAX_OUTPUT_PORT_TYPE
+A_DATA[3] <= A_DATA[3].DB_MAX_OUTPUT_PORT_TYPE
+B_DATA[0] <= B_DATA[0].DB_MAX_OUTPUT_PORT_TYPE
+B_DATA[1] <= B_DATA[1].DB_MAX_OUTPUT_PORT_TYPE
+B_DATA[2] <= B_DATA[2].DB_MAX_OUTPUT_PORT_TYPE
+B_DATA[3] <= B_DATA[3].DB_MAX_OUTPUT_PORT_TYPE
+SEG_1_OUT[0] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_1_OUT[1] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_1_OUT[2] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_1_OUT[3] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_1_OUT[4] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_1_OUT[5] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_1_OUT[6] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_1_OUT[7] <= dynamic_display:dynamic_display_A.SEG_OUT
+SEG_SEL_1[0] <= dynamic_display:dynamic_display_A.SEG_SEL
+SEG_SEL_1[1] <= dynamic_display:dynamic_display_A.SEG_SEL
+SEG_SEL_1[2] <= dynamic_display:dynamic_display_A.SEG_SEL
+SEG_SEL_1[3] <= dynamic_display:dynamic_display_A.SEG_SEL
+SEG_2_OUT[0] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_2_OUT[1] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_2_OUT[2] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_2_OUT[3] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_2_OUT[4] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_2_OUT[5] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_2_OUT[6] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_2_OUT[7] <= dynamic_display:dynamic_display_B.SEG_OUT
+SEG_SEL_2[0] <= dynamic_display:dynamic_display_B.SEG_SEL
+SEG_SEL_2[1] <= dynamic_display:dynamic_display_B.SEG_SEL
+SEG_SEL_2[2] <= dynamic_display:dynamic_display_B.SEG_SEL
+SEG_SEL_2[3] <= dynamic_display:dynamic_display_B.SEG_SEL
+
+
+|calc_one_top|controller:controller_ins|syncro:syncro
+CLK => q2[0].CLK
+CLK => q2[1].CLK
+CLK => q2[2].CLK
+CLK => q2[3].CLK
+CLK => q2[4].CLK
+CLK => q2[5].CLK
+CLK => q2[6].CLK
+CLK => q2[7].CLK
+CLK => q2[8].CLK
+CLK => q2[9].CLK
+CLK => q2[10].CLK
+CLK => q2[11].CLK
+CLK => q2[12].CLK
+CLK => q2[13].CLK
+CLK => q1[0].CLK
+CLK => q1[1].CLK
+CLK => q1[2].CLK
+CLK => q1[3].CLK
+CLK => q1[4].CLK
+CLK => q1[5].CLK
+CLK => q1[6].CLK
+CLK => q1[7].CLK
+CLK => q1[8].CLK
+CLK => q1[9].CLK
+CLK => q1[10].CLK
+CLK => q1[11].CLK
+CLK => q1[12].CLK
+CLK => q1[13].CLK
+CLK => q0[0].CLK
+CLK => q0[1].CLK
+CLK => q0[2].CLK
+CLK => q0[3].CLK
+CLK => q0[4].CLK
+CLK => q0[5].CLK
+CLK => q0[6].CLK
+CLK => q0[7].CLK
+CLK => q0[8].CLK
+CLK => q0[9].CLK
+CLK => q0[10].CLK
+CLK => q0[11].CLK
+CLK => q0[12].CLK
+CLK => q0[13].CLK
+RST_X => q2[0].ACLR
+RST_X => q2[1].ACLR
+RST_X => q2[2].ACLR
+RST_X => q2[3].ACLR
+RST_X => q2[4].ACLR
+RST_X => q2[5].ACLR
+RST_X => q2[6].ACLR
+RST_X => q2[7].ACLR
+RST_X => q2[8].ACLR
+RST_X => q2[9].ACLR
+RST_X => q2[10].ACLR
+RST_X => q2[11].ACLR
+RST_X => q2[12].ACLR
+RST_X => q2[13].ACLR
+RST_X => q1[0].ACLR
+RST_X => q1[1].ACLR
+RST_X => q1[2].ACLR
+RST_X => q1[3].ACLR
+RST_X => q1[4].ACLR
+RST_X => q1[5].ACLR
+RST_X => q1[6].ACLR
+RST_X => q1[7].ACLR
+RST_X => q1[8].ACLR
+RST_X => q1[9].ACLR
+RST_X => q1[10].ACLR
+RST_X => q1[11].ACLR
+RST_X => q1[12].ACLR
+RST_X => q1[13].ACLR
+RST_X => q0[0].ACLR
+RST_X => q0[1].ACLR
+RST_X => q0[2].ACLR
+RST_X => q0[3].ACLR
+RST_X => q0[4].ACLR
+RST_X => q0[5].ACLR
+RST_X => q0[6].ACLR
+RST_X => q0[7].ACLR
+RST_X => q0[8].ACLR
+RST_X => q0[9].ACLR
+RST_X => q0[10].ACLR
+RST_X => q0[11].ACLR
+RST_X => q0[12].ACLR
+RST_X => q0[13].ACLR
+PSW[0] => q0[0].DATAIN
+PSW[1] => q0[1].DATAIN
+PSW[2] => q0[2].DATAIN
+PSW[3] => q0[3].DATAIN
+PSW[4] => q0[4].DATAIN
+PSW[5] => q0[5].DATAIN
+PSW[6] => q0[6].DATAIN
+PSW[7] => q0[7].DATAIN
+PSW[8] => q0[8].DATAIN
+PSW[9] => q0[9].DATAIN
+PSW[10] => q0[10].DATAIN
+PSW[11] => q0[11].DATAIN
+PSW[12] => q0[12].DATAIN
+PSW[13] => q0[13].DATAIN
+SYN_PSW[0] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[1] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[2] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[3] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[4] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[5] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[6] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[7] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[8] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[9] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[10] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[11] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[12] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+SYN_PSW[13] <= SYN_PSW.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|decord:decord
+SYN_PSW[0] => WideOr0.IN0
+SYN_PSW[0] => change_data.DATAA
+SYN_PSW[0] => change_data.DATAA
+SYN_PSW[1] => change_data.OUTPUTSELECT
+SYN_PSW[1] => change_data.OUTPUTSELECT
+SYN_PSW[1] => WideOr0.IN1
+SYN_PSW[2] => change_data.OUTPUTSELECT
+SYN_PSW[2] => change_data.OUTPUTSELECT
+SYN_PSW[2] => change_data.OUTPUTSELECT
+SYN_PSW[2] => WideOr0.IN2
+SYN_PSW[3] => change_data.OUTPUTSELECT
+SYN_PSW[3] => change_data.OUTPUTSELECT
+SYN_PSW[3] => change_data.OUTPUTSELECT
+SYN_PSW[3] => WideOr0.IN3
+SYN_PSW[4] => change_data.OUTPUTSELECT
+SYN_PSW[4] => change_data.OUTPUTSELECT
+SYN_PSW[4] => change_data.OUTPUTSELECT
+SYN_PSW[4] => change_data.OUTPUTSELECT
+SYN_PSW[4] => WideOr0.IN4
+SYN_PSW[5] => change_data.OUTPUTSELECT
+SYN_PSW[5] => change_data.OUTPUTSELECT
+SYN_PSW[5] => change_data.OUTPUTSELECT
+SYN_PSW[5] => change_data.OUTPUTSELECT
+SYN_PSW[5] => WideOr0.IN5
+SYN_PSW[6] => change_data.OUTPUTSELECT
+SYN_PSW[6] => change_data.OUTPUTSELECT
+SYN_PSW[6] => change_data.OUTPUTSELECT
+SYN_PSW[6] => change_data.OUTPUTSELECT
+SYN_PSW[6] => WideOr0.IN6
+SYN_PSW[7] => change_data.OUTPUTSELECT
+SYN_PSW[7] => change_data.OUTPUTSELECT
+SYN_PSW[7] => change_data.OUTPUTSELECT
+SYN_PSW[7] => change_data.OUTPUTSELECT
+SYN_PSW[7] => WideOr0.IN7
+SYN_PSW[8] => change_data.OUTPUTSELECT
+SYN_PSW[8] => change_data.OUTPUTSELECT
+SYN_PSW[8] => change_data.OUTPUTSELECT
+SYN_PSW[8] => change_data.OUTPUTSELECT
+SYN_PSW[8] => WideOr0.IN8
+SYN_PSW[9] => change_data.OUTPUTSELECT
+SYN_PSW[9] => change_data.OUTPUTSELECT
+SYN_PSW[9] => change_data.OUTPUTSELECT
+SYN_PSW[9] => change_data.OUTPUTSELECT
+SYN_PSW[9] => WideOr0.IN9
+DEC_ENA <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+DEC_DATA[0] <= change_data.DB_MAX_OUTPUT_PORT_TYPE
+DEC_DATA[1] <= change_data.DB_MAX_OUTPUT_PORT_TYPE
+DEC_DATA[2] <= change_data.DB_MAX_OUTPUT_PORT_TYPE
+DEC_DATA[3] <= change_data.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|register:register_a
+CLK => REG_OUT[0]~reg0.CLK
+CLK => REG_OUT[1]~reg0.CLK
+CLK => REG_OUT[2]~reg0.CLK
+CLK => REG_OUT[3]~reg0.CLK
+RST_X => REG_OUT[0]~reg0.ACLR
+RST_X => REG_OUT[1]~reg0.ACLR
+RST_X => REG_OUT[2]~reg0.ACLR
+RST_X => REG_OUT[3]~reg0.ACLR
+INPUT_ENA => REG_OUT[0]~reg0.ENA
+INPUT_ENA => REG_OUT[3]~reg0.ENA
+INPUT_ENA => REG_OUT[2]~reg0.ENA
+INPUT_ENA => REG_OUT[1]~reg0.ENA
+REG_IN[0] => REG_OUT[0]~reg0.DATAIN
+REG_IN[1] => REG_OUT[1]~reg0.DATAIN
+REG_IN[2] => REG_OUT[2]~reg0.DATAIN
+REG_IN[3] => REG_OUT[3]~reg0.DATAIN
+REG_OUT[0] <= REG_OUT[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+REG_OUT[1] <= REG_OUT[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+REG_OUT[2] <= REG_OUT[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+REG_OUT[3] <= REG_OUT[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|register:register_b
+CLK => REG_OUT[0]~reg0.CLK
+CLK => REG_OUT[1]~reg0.CLK
+CLK => REG_OUT[2]~reg0.CLK
+CLK => REG_OUT[3]~reg0.CLK
+RST_X => REG_OUT[0]~reg0.ACLR
+RST_X => REG_OUT[1]~reg0.ACLR
+RST_X => REG_OUT[2]~reg0.ACLR
+RST_X => REG_OUT[3]~reg0.ACLR
+INPUT_ENA => REG_OUT[0]~reg0.ENA
+INPUT_ENA => REG_OUT[3]~reg0.ENA
+INPUT_ENA => REG_OUT[2]~reg0.ENA
+INPUT_ENA => REG_OUT[1]~reg0.ENA
+REG_IN[0] => REG_OUT[0]~reg0.DATAIN
+REG_IN[1] => REG_OUT[1]~reg0.DATAIN
+REG_IN[2] => REG_OUT[2]~reg0.DATAIN
+REG_IN[3] => REG_OUT[3]~reg0.DATAIN
+REG_OUT[0] <= REG_OUT[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+REG_OUT[1] <= REG_OUT[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+REG_OUT[2] <= REG_OUT[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+REG_OUT[3] <= REG_OUT[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd
+CLK => DATA_OUT_2[0]~reg0.CLK
+CLK => DATA_OUT_2[1]~reg0.CLK
+CLK => DATA_OUT_2[2]~reg0.CLK
+CLK => DATA_OUT_2[3]~reg0.CLK
+CLK => DATA_OUT_1[0]~reg0.CLK
+CLK => DATA_OUT_1[1]~reg0.CLK
+CLK => DATA_OUT_1[2]~reg0.CLK
+CLK => DATA_OUT_1[3]~reg0.CLK
+RST_X => DATA_OUT_2[0]~reg0.ACLR
+RST_X => DATA_OUT_2[1]~reg0.ACLR
+RST_X => DATA_OUT_2[2]~reg0.ACLR
+RST_X => DATA_OUT_2[3]~reg0.ACLR
+RST_X => DATA_OUT_1[0]~reg0.ACLR
+RST_X => DATA_OUT_1[1]~reg0.ACLR
+RST_X => DATA_OUT_1[2]~reg0.ACLR
+RST_X => DATA_OUT_1[3]~reg0.ACLR
+DATA_IN[0] => DATA_BUF[0].DATAA
+DATA_IN[0] => inv0.IN1
+DATA_IN[1] => DATA_IN[1].IN1
+DATA_IN[2] => DATA_IN[2].IN1
+DATA_IN[3] => DATA_IN[3].IN1
+DATA_IN[4] => cry.IN1
+DATA_IN[5] => DATA_IN[5].IN1
+DATA_OUT_1[0] <= DATA_OUT_1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_OUT_1[1] <= DATA_OUT_1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_OUT_1[2] <= DATA_OUT_1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_OUT_1[3] <= DATA_OUT_1[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_OUT_2[0] <= DATA_OUT_2[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_OUT_2[1] <= DATA_OUT_2[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_OUT_2[2] <= DATA_OUT_2[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_OUT_2[3] <= DATA_OUT_2[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|halfadder:HA0
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|halfadder:HA3
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|halfadder:HA4
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|fulladder:FA0
+A => A.IN1
+B => B.IN1
+CIN => CIN.IN1
+SUM <= halfadder:HA2.port2
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|fulladder:FA0|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|fulladder:FA0|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|devide:devide_bcd|halfadder:HA5
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|seg_convert:segment_c
+SEG_IN[0] => Decoder0.IN3
+SEG_IN[1] => Decoder0.IN2
+SEG_IN[2] => Decoder0.IN1
+SEG_IN[3] => Decoder0.IN0
+SEG_ENA => Decoder0.IN4
+SEG_OUT[0] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[3] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[6] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[7] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|seg_convert:segment_e
+SEG_IN[0] => Decoder0.IN3
+SEG_IN[1] => Decoder0.IN2
+SEG_IN[2] => Decoder0.IN1
+SEG_IN[3] => Decoder0.IN0
+SEG_ENA => Decoder0.IN4
+SEG_OUT[0] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[3] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[6] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[7] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|seg_convert_2:segment_g
+SEG_IN[0] => Decoder0.IN3
+SEG_IN[1] => Decoder0.IN2
+SEG_IN[2] => Decoder0.IN1
+SEG_IN[3] => Decoder0.IN0
+SEG_ENA => Decoder0.IN4
+SEG_OUT[0] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[3] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[6] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[7] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|seg_convert:segment_h
+SEG_IN[0] => Decoder0.IN3
+SEG_IN[1] => Decoder0.IN2
+SEG_IN[2] => Decoder0.IN1
+SEG_IN[3] => Decoder0.IN0
+SEG_ENA => Decoder0.IN4
+SEG_OUT[0] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[3] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[6] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[7] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|controller_2:controller_2
+CLK => MUX_SEL~reg0.CLK
+CLK => SEG_RESULT_ENA~reg0.CLK
+CLK => SEG_B_ENA~reg0.CLK
+CLK => SEG_A_ENA~reg0.CLK
+CLK => CHATA_SEL~reg0.CLK
+CLK => state~1.DATAIN
+RST_X => MUX_SEL~reg0.ACLR
+RST_X => SEG_RESULT_ENA~reg0.ACLR
+RST_X => SEG_B_ENA~reg0.ACLR
+RST_X => SEG_A_ENA~reg0.ACLR
+RST_X => CHATA_SEL~reg0.ACLR
+RST_X => state~3.DATAIN
+CHATA_ENA => Selector1.IN5
+CHATA_ENA => state.DATAA
+CHATA_ENA => CHATA_SEL.DATAA
+CHATA_ENA => Selector0.IN0
+CHATA_ENA => Selector9.IN0
+SUM_SIG => state.OUTPUTSELECT
+SUM_SIG => CHATA_SEL.OUTPUTSELECT
+SUM_SIG => MUX_SEL.OUTPUTSELECT
+SUM_SIG => state.DATAA
+SUB_SIG => CHATA_SEL.DATAA
+SUB_SIG => MUX_SEL.DATAA
+SUB_SIG => state.DATAA
+CLEAR_SIG => state.OUTPUTSELECT
+CLEAR_SIG => state.OUTPUTSELECT
+CLEAR_SIG => CHATA_SEL.OUTPUTSELECT
+CLEAR_SIG => MUX_SEL.OUTPUTSELECT
+CLEAR_SIG => CHATA_SEL.OUTPUTSELECT
+CLEAR_SIG => CHATA_SEL.OUTPUTSELECT
+CLEAR_SIG => SEG_RESULT_ENA.OUTPUTSELECT
+CLEAR_SIG => state.OUTPUTSELECT
+CLEAR_SIG => Selector0.IN1
+CLEAR_SIG => Selector8.IN5
+CLEAR_SIG => Selector9.IN1
+CLEAR_SIG => Selector10.IN3
+CLEAR_SIG => Selector10.IN4
+CLEAR_SIG => Selector12.IN3
+EQUAL_SIG => SEG_RESULT_ENA.DATAA
+EQUAL_SIG => CHATA_SEL.DATAA
+CHATA_SEL <= CHATA_SEL~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_A_ENA <= SEG_A_ENA~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_B_ENA <= SEG_B_ENA~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_RESULT_ENA <= SEG_RESULT_ENA~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MUX_SEL <= MUX_SEL~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|dynamic_display:dynamic_display_A
+CLK => SEG_OUT[0]~reg0.CLK
+CLK => SEG_OUT[1]~reg0.CLK
+CLK => SEG_OUT[2]~reg0.CLK
+CLK => SEG_OUT[3]~reg0.CLK
+CLK => SEG_OUT[4]~reg0.CLK
+CLK => SEG_OUT[5]~reg0.CLK
+CLK => SEG_OUT[6]~reg0.CLK
+CLK => SEG_OUT[7]~reg0.CLK
+CLK => GATE[0].CLK
+CLK => GATE[1].CLK
+CLK => GATE[2].CLK
+CLK => GATE[3].CLK
+CLK => SEC_SIG.CLK
+CLK => SEC_COUNT[0].CLK
+CLK => SEC_COUNT[1].CLK
+CLK => SEC_COUNT[2].CLK
+CLK => SEC_COUNT[3].CLK
+CLK => SEC_COUNT[4].CLK
+CLK => SEC_COUNT[5].CLK
+CLK => SEC_COUNT[6].CLK
+CLK => SEC_COUNT[7].CLK
+CLK => SEC_COUNT[8].CLK
+CLK => SEC_COUNT[9].CLK
+CLK => SEC_COUNT[10].CLK
+CLK => SEC_COUNT[11].CLK
+CLK => SEC_COUNT[12].CLK
+CLK => SEC_COUNT[13].CLK
+CLK => SEC_COUNT[14].CLK
+CLK => SEC_COUNT[15].CLK
+CLK => SEC_COUNT[16].CLK
+CLK => SEC_COUNT[17].CLK
+CLK => SEC_COUNT[18].CLK
+CLK => SEC_COUNT[19].CLK
+CLK => SEC_COUNT[20].CLK
+CLK => SEC_COUNT[21].CLK
+CLK => SEC_COUNT[22].CLK
+CLK => SEC_COUNT[23].CLK
+CLK => SEC_COUNT[24].CLK
+CLK => SEC_COUNT[25].CLK
+CLK => SEC_COUNT[26].CLK
+CLK => SEC_COUNT[27].CLK
+RST_X => SEC_COUNT[0].ACLR
+RST_X => SEC_COUNT[1].ACLR
+RST_X => SEC_COUNT[2].ACLR
+RST_X => SEC_COUNT[3].ACLR
+RST_X => SEC_COUNT[4].ACLR
+RST_X => SEC_COUNT[5].ACLR
+RST_X => SEC_COUNT[6].ACLR
+RST_X => SEC_COUNT[7].ACLR
+RST_X => SEC_COUNT[8].ACLR
+RST_X => SEC_COUNT[9].ACLR
+RST_X => SEC_COUNT[10].ACLR
+RST_X => SEC_COUNT[11].ACLR
+RST_X => SEC_COUNT[12].ACLR
+RST_X => SEC_COUNT[13].ACLR
+RST_X => SEC_COUNT[14].ACLR
+RST_X => SEC_COUNT[15].ACLR
+RST_X => SEC_COUNT[16].ACLR
+RST_X => SEC_COUNT[17].ACLR
+RST_X => SEC_COUNT[18].ACLR
+RST_X => SEC_COUNT[19].ACLR
+RST_X => SEC_COUNT[20].ACLR
+RST_X => SEC_COUNT[21].ACLR
+RST_X => SEC_COUNT[22].ACLR
+RST_X => SEC_COUNT[23].ACLR
+RST_X => SEC_COUNT[24].ACLR
+RST_X => SEC_COUNT[25].ACLR
+RST_X => SEC_COUNT[26].ACLR
+RST_X => SEC_COUNT[27].ACLR
+RST_X => SEG_OUT[0]~reg0.ACLR
+RST_X => SEG_OUT[1]~reg0.ACLR
+RST_X => SEG_OUT[2]~reg0.ACLR
+RST_X => SEG_OUT[3]~reg0.ACLR
+RST_X => SEG_OUT[4]~reg0.ACLR
+RST_X => SEG_OUT[5]~reg0.ACLR
+RST_X => SEG_OUT[6]~reg0.ACLR
+RST_X => SEG_OUT[7]~reg0.ACLR
+RST_X => SEC_SIG.ACLR
+RST_X => GATE[0].PRESET
+RST_X => GATE[1].ACLR
+RST_X => GATE[2].ACLR
+RST_X => GATE[3].ACLR
+SEG_0[0] => Mux7.IN12
+SEG_0[1] => Mux6.IN12
+SEG_0[2] => Mux5.IN12
+SEG_0[3] => Mux4.IN12
+SEG_0[4] => Mux3.IN12
+SEG_0[5] => Mux2.IN12
+SEG_0[6] => Mux1.IN12
+SEG_0[7] => Mux0.IN12
+SEG_1[0] => Mux7.IN13
+SEG_1[1] => Mux6.IN13
+SEG_1[2] => Mux5.IN13
+SEG_1[3] => Mux4.IN13
+SEG_1[4] => Mux3.IN13
+SEG_1[5] => Mux2.IN13
+SEG_1[6] => Mux1.IN13
+SEG_1[7] => Mux0.IN13
+SEG_2[0] => Mux7.IN14
+SEG_2[1] => Mux6.IN14
+SEG_2[2] => Mux5.IN14
+SEG_2[3] => Mux4.IN14
+SEG_2[4] => Mux3.IN14
+SEG_2[5] => Mux2.IN14
+SEG_2[6] => Mux1.IN14
+SEG_2[7] => Mux0.IN14
+SEG_3[0] => Mux7.IN15
+SEG_3[1] => Mux6.IN15
+SEG_3[2] => Mux5.IN15
+SEG_3[3] => Mux4.IN15
+SEG_3[4] => Mux3.IN15
+SEG_3[5] => Mux2.IN15
+SEG_3[6] => Mux1.IN15
+SEG_3[7] => Mux0.IN15
+SEG_OUT[0] <= SEG_OUT[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[1] <= SEG_OUT[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[2] <= SEG_OUT[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[3] <= SEG_OUT[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[4] <= SEG_OUT[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[5] <= SEG_OUT[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[6] <= SEG_OUT[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[7] <= SEG_OUT[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[0] <= GATE[0].DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[1] <= GATE[1].DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[2] <= GATE[2].DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[3] <= GATE[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|controller:controller_ins|dynamic_display:dynamic_display_B
+CLK => SEG_OUT[0]~reg0.CLK
+CLK => SEG_OUT[1]~reg0.CLK
+CLK => SEG_OUT[2]~reg0.CLK
+CLK => SEG_OUT[3]~reg0.CLK
+CLK => SEG_OUT[4]~reg0.CLK
+CLK => SEG_OUT[5]~reg0.CLK
+CLK => SEG_OUT[6]~reg0.CLK
+CLK => SEG_OUT[7]~reg0.CLK
+CLK => GATE[0].CLK
+CLK => GATE[1].CLK
+CLK => GATE[2].CLK
+CLK => GATE[3].CLK
+CLK => SEC_SIG.CLK
+CLK => SEC_COUNT[0].CLK
+CLK => SEC_COUNT[1].CLK
+CLK => SEC_COUNT[2].CLK
+CLK => SEC_COUNT[3].CLK
+CLK => SEC_COUNT[4].CLK
+CLK => SEC_COUNT[5].CLK
+CLK => SEC_COUNT[6].CLK
+CLK => SEC_COUNT[7].CLK
+CLK => SEC_COUNT[8].CLK
+CLK => SEC_COUNT[9].CLK
+CLK => SEC_COUNT[10].CLK
+CLK => SEC_COUNT[11].CLK
+CLK => SEC_COUNT[12].CLK
+CLK => SEC_COUNT[13].CLK
+CLK => SEC_COUNT[14].CLK
+CLK => SEC_COUNT[15].CLK
+CLK => SEC_COUNT[16].CLK
+CLK => SEC_COUNT[17].CLK
+CLK => SEC_COUNT[18].CLK
+CLK => SEC_COUNT[19].CLK
+CLK => SEC_COUNT[20].CLK
+CLK => SEC_COUNT[21].CLK
+CLK => SEC_COUNT[22].CLK
+CLK => SEC_COUNT[23].CLK
+CLK => SEC_COUNT[24].CLK
+CLK => SEC_COUNT[25].CLK
+CLK => SEC_COUNT[26].CLK
+CLK => SEC_COUNT[27].CLK
+RST_X => SEC_COUNT[0].ACLR
+RST_X => SEC_COUNT[1].ACLR
+RST_X => SEC_COUNT[2].ACLR
+RST_X => SEC_COUNT[3].ACLR
+RST_X => SEC_COUNT[4].ACLR
+RST_X => SEC_COUNT[5].ACLR
+RST_X => SEC_COUNT[6].ACLR
+RST_X => SEC_COUNT[7].ACLR
+RST_X => SEC_COUNT[8].ACLR
+RST_X => SEC_COUNT[9].ACLR
+RST_X => SEC_COUNT[10].ACLR
+RST_X => SEC_COUNT[11].ACLR
+RST_X => SEC_COUNT[12].ACLR
+RST_X => SEC_COUNT[13].ACLR
+RST_X => SEC_COUNT[14].ACLR
+RST_X => SEC_COUNT[15].ACLR
+RST_X => SEC_COUNT[16].ACLR
+RST_X => SEC_COUNT[17].ACLR
+RST_X => SEC_COUNT[18].ACLR
+RST_X => SEC_COUNT[19].ACLR
+RST_X => SEC_COUNT[20].ACLR
+RST_X => SEC_COUNT[21].ACLR
+RST_X => SEC_COUNT[22].ACLR
+RST_X => SEC_COUNT[23].ACLR
+RST_X => SEC_COUNT[24].ACLR
+RST_X => SEC_COUNT[25].ACLR
+RST_X => SEC_COUNT[26].ACLR
+RST_X => SEC_COUNT[27].ACLR
+RST_X => SEG_OUT[0]~reg0.ACLR
+RST_X => SEG_OUT[1]~reg0.ACLR
+RST_X => SEG_OUT[2]~reg0.ACLR
+RST_X => SEG_OUT[3]~reg0.ACLR
+RST_X => SEG_OUT[4]~reg0.ACLR
+RST_X => SEG_OUT[5]~reg0.ACLR
+RST_X => SEG_OUT[6]~reg0.ACLR
+RST_X => SEG_OUT[7]~reg0.ACLR
+RST_X => SEC_SIG.ACLR
+RST_X => GATE[0].PRESET
+RST_X => GATE[1].ACLR
+RST_X => GATE[2].ACLR
+RST_X => GATE[3].ACLR
+SEG_0[0] => Mux7.IN12
+SEG_0[1] => Mux6.IN12
+SEG_0[2] => Mux5.IN12
+SEG_0[3] => Mux4.IN12
+SEG_0[4] => Mux3.IN12
+SEG_0[5] => Mux2.IN12
+SEG_0[6] => Mux1.IN12
+SEG_0[7] => Mux0.IN12
+SEG_1[0] => Mux7.IN13
+SEG_1[1] => Mux6.IN13
+SEG_1[2] => Mux5.IN13
+SEG_1[3] => Mux4.IN13
+SEG_1[4] => Mux3.IN13
+SEG_1[5] => Mux2.IN13
+SEG_1[6] => Mux1.IN13
+SEG_1[7] => Mux0.IN13
+SEG_2[0] => Mux7.IN14
+SEG_2[1] => Mux6.IN14
+SEG_2[2] => Mux5.IN14
+SEG_2[3] => Mux4.IN14
+SEG_2[4] => Mux3.IN14
+SEG_2[5] => Mux2.IN14
+SEG_2[6] => Mux1.IN14
+SEG_2[7] => Mux0.IN14
+SEG_3[0] => Mux7.IN15
+SEG_3[1] => Mux6.IN15
+SEG_3[2] => Mux5.IN15
+SEG_3[3] => Mux4.IN15
+SEG_3[4] => Mux3.IN15
+SEG_3[5] => Mux2.IN15
+SEG_3[6] => Mux1.IN15
+SEG_3[7] => Mux0.IN15
+SEG_OUT[0] <= SEG_OUT[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[1] <= SEG_OUT[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[2] <= SEG_OUT[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[3] <= SEG_OUT[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[4] <= SEG_OUT[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[5] <= SEG_OUT[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[6] <= SEG_OUT[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_OUT[7] <= SEG_OUT[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[0] <= GATE[0].DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[1] <= GATE[1].DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[2] <= GATE[2].DB_MAX_OUTPUT_PORT_TYPE
+SEG_SEL[3] <= GATE[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins
+A_DATA[0] => A_DATA[0].IN1
+A_DATA[1] => A_DATA[1].IN1
+A_DATA[2] => A_DATA[2].IN1
+A_DATA[3] => A_DATA[3].IN1
+B_DATA[0] => B_DATA[0].IN1
+B_DATA[1] => B_DATA[1].IN1
+B_DATA[2] => B_DATA[2].IN1
+B_DATA[3] => B_DATA[3].IN1
+SUB_DATA[0] <= halfadder:HA0.port2
+SUB_DATA[1] <= fulladder:FA1.port3
+SUB_DATA[2] <= fulladder:FA2.port3
+SUB_DATA[3] <= fulladder:FA3.port3
+SUB_DATA[4] <= fulladder:FA3.port4
+SUB_DATA[5] <= <GND>
+
+
+|calc_one_top|add:add_ins|halfadder:HA0
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA1
+A => A.IN1
+B => B.IN1
+CIN => CIN.IN1
+SUM <= halfadder:HA2.port2
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA1|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA1|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA2
+A => A.IN1
+B => B.IN1
+CIN => CIN.IN1
+SUM <= halfadder:HA2.port2
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA2|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA2|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA3
+A => A.IN1
+B => B.IN1
+CIN => CIN.IN1
+SUM <= halfadder:HA2.port2
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA3|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|add:add_ins|fulladder:FA3|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins
+A_DATA[0] => A_DATA[0].IN1
+A_DATA[1] => A_DATA[1].IN1
+A_DATA[2] => A_DATA[2].IN1
+A_DATA[3] => A_DATA[3].IN1
+B_DATA[0] => binv[0].IN1
+B_DATA[1] => binv[1].IN1
+B_DATA[2] => binv[2].IN1
+B_DATA[3] => binv[3].IN1
+SUB_DATA[0] <= halfadder:HA7.port2
+SUB_DATA[1] <= fulladder:FA1.port3
+SUB_DATA[2] <= fulladder:FA2.port3
+SUB_DATA[3] <= fulladder:FA3.port3
+SUB_DATA[4] <= halfadder:HA8.port2
+SUB_DATA[5] <= halfadder:HA9.port2
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA3
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA4
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA5
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA6
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA7
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA1
+A => A.IN1
+B => B.IN1
+CIN => CIN.IN1
+SUM <= halfadder:HA2.port2
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA1|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA1|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA2
+A => A.IN1
+B => B.IN1
+CIN => CIN.IN1
+SUM <= halfadder:HA2.port2
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA2|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA2|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA3
+A => A.IN1
+B => B.IN1
+CIN => CIN.IN1
+SUM <= halfadder:HA2.port2
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA3|halfadder:HA1
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|fulladder:FA3|halfadder:HA2
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA8
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_one_top|sub:sub_ins|halfadder:HA9
+A => CO.IN0
+A => Y.IN0
+B => CO.IN1
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+

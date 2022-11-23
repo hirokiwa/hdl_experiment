@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/jikken-root/work/src/calc
+vaddandsub
+Z1 !s110 1669191905
+!i10b 1
+!s100 ;6WchFzAU_NFnlc51hU:F2
+IWi47MSUbb_UNKCX2>YO2N2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1669191893
+Z4 8E:/jikken-root/work/src/calc/addandsub.v
+Z5 FE:/jikken-root/work/src/calc/addandsub.v
+L0 8
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669191905.000000
+Z8 !s107 E:/jikken-root/work/src/calc/addandsub.v|
+Z9 !s90 -reportprogress|300|-work|jikken_addandsub|-stats=none|E:/jikken-root/work/src/calc/addandsub.v|
+!i113 1
+Z10 o-work jikken_addandsub
+Z11 tCvgOpt 0
+vfulladder
+R1
+!i10b 1
+!s100 96K2h;B1Nh;TTZ:bchk_H3
+IH:?=Gki44zW:5U=:BbDz^0
+R2
+R0
+Z12 w1669182192
+8E:/jikken-root/work/src/calc/fulladder.v
+FE:/jikken-root/work/src/calc/fulladder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/jikken-root/work/src/calc/fulladder.v|
+!s90 -reportprogress|300|-work|jikken_addandsub|-stats=none|E:/jikken-root/work/src/calc/fulladder.v|
+!i113 1
+R10
+R11
+vhalfadder
+R1
+!i10b 1
+!s100 lDX<gLIV8dQU:Nf:51QR83
+IU4kLNA]4h?:z2m:fIhH`D1
+R2
+R0
+R12
+8E:/jikken-root/work/src/calc/halfadder.v
+FE:/jikken-root/work/src/calc/halfadder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/jikken-root/work/src/calc/halfadder.v|
+!s90 -reportprogress|300|-work|jikken_addandsub|-stats=none|E:/jikken-root/work/src/calc/halfadder.v|
+!i113 1
+R10
+R11
+vlogic
+R1
+!i10b 1
+!s100 ASbO=NJ^H?Un[Sk<3`lG=0
+Io;`6cVFk;5Z;N<@PZGkF80
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtest_addandsub
+R1
+!i10b 1
+!s100 Ij0l4``TK7LkNk1Xg3Goz2
+Il4Lh86TbRYRdhM:jWjhg92
+R2
+R0
+w1669191892
+8E:/jikken-root/work/src/calc/test_addandsub.v
+FE:/jikken-root/work/src/calc/test_addandsub.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/jikken-root/work/src/calc/test_addandsub.v|
+!s90 -reportprogress|300|-work|jikken_addandsub|-stats=none|E:/jikken-root/work/src/calc/test_addandsub.v|
+!i113 1
+R10
+R11

@@ -1,9 +1,9 @@
 module test_addandsub;
     reg [5:0] a, b;
-    reg sub_cel;
+    reg sub_sel;
     wire [5:0] result;
 
-    addandsub addandsub(a, b, sum, carry);
+    addandsub addandsub(a, b, sub_sel, result);
 
     initial begin
                 sub_sel=1'b0;   a=6'h2;     b=6'h3;
@@ -20,7 +20,7 @@ module test_addandsub;
     end
 
     initial begin
-        $monitor("%t %b %h %h %h" , $time, sub_cel, a, b, result);
+        $monitor("%t %b %h %h %h" , $time, sub_sel, a, b, result);
     end
     
 endmodule

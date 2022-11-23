@@ -1,0 +1,88 @@
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of test_addandsub.v failed with 1 errors.
+# Compile of addandsub.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of test_addandsub.v was successful.
+# Compile of addandsub.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui jikken_addandsub.test_addandsub
+# vsim -gui jikken_addandsub.test_addandsub 
+# Start time: 17:17:44 on Nov 23,2022
+# Loading jikken_addandsub.test_addandsub
+# Loading jikken_addandsub.addandsub
+# Loading jikken_addandsub.logic
+# Loading jikken_addandsub.fulladder
+# Loading jikken_addandsub.halfadder
+# ** Error: (vsim-3043) E:/jikken-root/work/src/calc/test_addandsub.v(23): Unresolved reference to 'sub_cel'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_addandsub File: E:/jikken-root/work/src/calc/test_addandsub.v
+# ** Warning: (vsim-3015) E:/jikken-root/work/src/calc/test_addandsub.v(6): [PCDPC] - Port size (6) does not match connection size (1) for port 'RESULT'. The port definition is at: E:/jikken-root/work/src/calc/addandsub.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /test_addandsub/addandsub File: E:/jikken-root/work/src/calc/addandsub.v
+# Error loading design
+# End time: 17:17:44 on Nov 23,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of test_addandsub.v was successful.
+# Compile of addandsub.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of test_addandsub.v was successful.
+# Compile of addandsub.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui jikken_addandsub.test_addandsub
+# vsim -gui jikken_addandsub.test_addandsub 
+# Start time: 17:22:08 on Nov 23,2022
+# Loading jikken_addandsub.test_addandsub
+# Loading jikken_addandsub.addandsub
+# Loading jikken_addandsub.logic
+# Loading jikken_addandsub.fulladder
+# Loading jikken_addandsub.halfadder
+# ** Warning: (vsim-3015) E:/jikken-root/work/src/calc/test_addandsub.v(6): [PCDPC] - Port size (1) does not match connection size (6) for port 'SUB_SEL'. The port definition is at: E:/jikken-root/work/src/calc/addandsub.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /test_addandsub/addandsub File: E:/jikken-root/work/src/calc/addandsub.v
+# ** Error (suppressible): (vsim-3053) E:/jikken-root/work/src/calc/test_addandsub.v(6): Illegal output or inout port connection for port 'RESULT'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_addandsub/addandsub File: E:/jikken-root/work/src/calc/addandsub.v
+# ** Warning: (vsim-3015) E:/jikken-root/work/src/calc/test_addandsub.v(6): [PCDPC] - Port size (6) does not match connection size (1) for port 'RESULT'. The port definition is at: E:/jikken-root/work/src/calc/addandsub.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /test_addandsub/addandsub File: E:/jikken-root/work/src/calc/addandsub.v
+# Error loading design
+# End time: 17:22:08 on Nov 23,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of test_addandsub.v was successful.
+# Compile of addandsub.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of test_addandsub.v was successful.
+# Compile of addandsub.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui jikken_addandsub.test_addandsub
+# vsim -gui jikken_addandsub.test_addandsub 
+# Start time: 17:25:21 on Nov 23,2022
+# Loading jikken_addandsub.test_addandsub
+# Loading jikken_addandsub.addandsub
+# Loading jikken_addandsub.logic
+# Loading jikken_addandsub.fulladder
+# Loading jikken_addandsub.halfadder
+add wave -position end  sim:/test_addandsub/a
+add wave -position end  sim:/test_addandsub/b
+add wave -position end  sim:/test_addandsub/sub_sel
+add wave -position end  sim:/test_addandsub/result
+run -all
+#                    0 0 02 03 05
+#                  100 0 04 07 0b
+#                  200 0 05 0a 0f
+#                  300 0 06 0e 14
+#                  400 0 0d 09 16
+#                  500 1 06 03 03
+#                  600 1 04 07 3d
+#                  700 1 0a 05 05
+#                  800 1 06 0f 37
+#                  900 1 0d 09 04
+#                 1000 1 00 0e 32
+# End time: 17:32:17 on Nov 23,2022, Elapsed time: 0:06:56
+# Errors: 0, Warnings: 0
