@@ -9,6 +9,6 @@ module add(A_DATA, B_DATA, SUB_DATA);
     fulladder FA3(A_DATA[3], B_DATA[3], c2, SUB_DATA[3], c3);
 
     assign SUB_DATA[4] = c3;
-    assign SUB_DATA[5] = h'0;
+    assign SUB_DATA[5] = 1'h0;
 
 endmodule

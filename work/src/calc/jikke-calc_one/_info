@@ -1,0 +1,325 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vadd
+Z0 !s110 1669188839
+!i10b 1
+!s100 zG4I6UlbK3aj57`UGLGQO2
+I5QUooAlmZXmkjYU_BCK0d0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/jikken-root/work/src/calc
+w1669188808
+8E:/jikken-root/work/src/calc/add.v
+FE:/jikken-root/work/src/calc/add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1669188839.000000
+!s107 E:/jikken-root/work/src/calc/add.v|
+!s90 -reportprogress|300|-work|jikke-calc_one|-stats=none|E:/jikken-root/work/src/calc/add.v|
+!i113 1
+Z5 o-work jikke-calc_one
+Z6 tCvgOpt 0
+vcalc_one_top
+R0
+!i10b 1
+!s100 ?=mTbz4WTeGTVCgU1b@[f3
+I9]9<`29z8I@mbGhSe8_EA3
+R1
+R2
+w1669185281
+8E:/jikken-root/work/src/calc/calc_one_top.v
+FE:/jikken-root/work/src/calc/calc_one_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/calc/calc_one_top.v|
+!s90 -reportprogress|300|-work|jikke-calc_one|-stats=none|E:/jikken-root/work/src/calc/calc_one_top.v|
+!i113 1
+R5
+R6
+vcontroller
+R0
+!i10b 1
+!s100 R>c[2nREHDVma1M77a4gE0
+IhgaAH5YGQeL;JljNn3QBZ2
+R1
+R2
+Z7 w1669182192
+Z8 8E:/jikken-root/work/src/calc/controller_sim.v
+Z9 FE:/jikken-root/work/src/calc/controller_sim.v
+L0 10
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 E:/jikken-root/work/src/calc/controller_sim.v|
+Z11 !s90 -reportprogress|300|-work|jikke-calc_one|-stats=none|E:/jikken-root/work/src/calc/controller_sim.v|
+!i113 1
+R5
+R6
+vcontroller_2
+R0
+!i10b 1
+!s100 :^B66mDk1>HjIfQcF`DlF2
+I[`ff`6f[Blb>o>FLKe60m0
+R1
+R2
+R7
+R8
+R9
+L0 634
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vdecord
+R0
+!i10b 1
+!s100 ]SSR_GlA_IloCJ?81]ajg1
+I3>Y@oMF=2>Il<?1cYN?E;3
+R1
+R2
+R7
+R8
+R9
+L0 270
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vdevide
+R0
+!i10b 1
+!s100 W598m0h^F2IkZ]b2e3TWP3
+I=hzMHL`O`>8SROW[5lnaL0
+R1
+R2
+R7
+R8
+R9
+L0 402
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vdynamic_display
+R0
+!i10b 1
+!s100 H7MoT<[UZPa@_P@cCG=bI2
+I3PmVg<03D^hBKHk@Ianb_1
+R1
+R2
+R7
+R8
+R9
+L0 959
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vfulladder
+R0
+!i10b 1
+!s100 96K2h;B1Nh;TTZ:bchk_H3
+IYWNUP^DERnfKP6J4f;lhA1
+R1
+R2
+R7
+8E:/jikken-root/work/src/calc/fulladder.v
+FE:/jikken-root/work/src/calc/fulladder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/calc/fulladder.v|
+!s90 -reportprogress|300|-work|jikke-calc_one|-stats=none|E:/jikken-root/work/src/calc/fulladder.v|
+!i113 1
+R5
+R6
+vhalfadder
+R0
+!i10b 1
+!s100 lDX<gLIV8dQU:Nf:51QR83
+ImZV85>md:6hNH4<m6N?<`0
+R1
+R2
+R7
+8E:/jikken-root/work/src/calc/halfadder.v
+FE:/jikken-root/work/src/calc/halfadder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/calc/halfadder.v|
+!s90 -reportprogress|300|-work|jikke-calc_one|-stats=none|E:/jikken-root/work/src/calc/halfadder.v|
+!i113 1
+R5
+R6
+vregister
+R0
+!i10b 1
+!s100 CfQ2^^>0CX<l@ZzcIlh8o2
+IQ3kF38C9fKG[7@Se1AY;G0
+R1
+R2
+R7
+R8
+R9
+L0 352
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vseg_convert
+R0
+!i10b 1
+!s100 oFET7SFjKP`8]fm4eW<gh3
+IEgDdh;>QaQJMJknZ;AX>_0
+R1
+R2
+R7
+R8
+R9
+L0 498
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vseg_convert_2
+R0
+!i10b 1
+!s100 H6AmYm8ePGF7C6SR58VI_1
+ITTVkDR]9P]AJ;0NP8Gdl?1
+R1
+R2
+R7
+R8
+R9
+L0 566
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vsub
+R0
+!i10b 1
+!s100 >kh<69XXo0h>^6aKX0MT:2
+IXVdaEN?lfm@baUj?A=lSk1
+R1
+R2
+w1669187244
+8E:/jikken-root/work/src/calc/sub.v
+FE:/jikken-root/work/src/calc/sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/calc/sub.v|
+!s90 -reportprogress|300|-work|jikke-calc_one|-stats=none|E:/jikken-root/work/src/calc/sub.v|
+!i113 1
+R5
+R6
+vsyncro
+R0
+!i10b 1
+!s100 RBcZ7kHP@1C^6eCPdB1Fb1
+IG_9@ZR13kY1:b41I]Mm7S1
+R1
+R2
+R7
+R8
+R9
+L0 220
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vtest_calc_one
+!s110 1669188840
+!i10b 1
+!s100 ZcF?XGn8I[T25IYET1DhS3
+I9IZdHN0O`=U<l_inHX88A1
+R1
+R2
+w1669188275
+8E:/jikken-root/work/src/calc/test_calc_one.v
+FE:/jikken-root/work/src/calc/test_calc_one.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/jikken-root/work/src/calc/test_calc_one.v|
+!s90 -reportprogress|300|-work|jikke-calc_one|-stats=none|E:/jikken-root/work/src/calc/test_calc_one.v|
+!i113 1
+R5
+R6

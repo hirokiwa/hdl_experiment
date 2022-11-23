@@ -1,0 +1,169 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEG_1_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_1_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_1_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_1_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_1_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_1_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_1_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_1_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_2_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG_SEL_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST_X",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PSW[13]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

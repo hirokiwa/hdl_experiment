@@ -1,0 +1,11 @@
+
+State Machine - |calc_one_top|controller:controller_ins|controller_2:controller_2|state
+Name state.P_SUB_FINISH state.P_SUM_FINISH state.P_SUB_2 state.P_SUB_1 state.P_SUM_2 state.P_SUM_1 state.P_STEP_1 state.P_IDLE 
+state.P_IDLE 0 0 0 0 0 0 0 0 
+state.P_STEP_1 0 0 0 0 0 0 1 1 
+state.P_SUM_1 0 0 0 0 0 1 0 1 
+state.P_SUM_2 0 0 0 0 1 0 0 1 
+state.P_SUB_1 0 0 0 1 0 0 0 1 
+state.P_SUB_2 0 0 1 0 0 0 0 1 
+state.P_SUM_FINISH 0 1 0 0 0 0 0 1 
+state.P_SUB_FINISH 1 0 0 0 0 0 0 1 

@@ -1,0 +1,30 @@
+E:/jikken-root/work/src/calc/halfadder.v {1 {vlog -work jikken_addandsub -stats=none E:/jikken-root/work/src/calc/halfadder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module halfadder
+
+Top level modules:
+	halfadder
+
+} {} {}} E:/jikken-root/work/src/calc/fulladder.v {1 {vlog -work jikken_addandsub -stats=none E:/jikken-root/work/src/calc/fulladder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} E:/jikken-root/work/src/calc/test_addandsub.v {1 {vlog -work jikken_addandsub -stats=none E:/jikken-root/work/src/calc/test_addandsub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_addandsub
+
+Top level modules:
+	test_addandsub
+
+} {} {}} E:/jikken-root/work/src/calc/addandsub.v {1 {vlog -work jikken_addandsub -stats=none E:/jikken-root/work/src/calc/addandsub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module logic
+-- Compiling module addandsub
+
+Top level modules:
+	addandsub
+
+} {} {}}
