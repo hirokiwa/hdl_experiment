@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compile of fulladder.v was successful.
 # Compile of halfadder.v was successful.
 # Compile of test_addandsub.v failed with 1 errors.
@@ -86,3 +87,116 @@ run -all
 #                 1000 1 00 0e 32
 # End time: 17:32:17 on Nov 23,2022, Elapsed time: 0:06:56
 # Errors: 0, Warnings: 0
+=======
+vsim -gui jikke-calc_one.test_calc_one
+# vsim -gui jikke-calc_one.test_calc_one 
+# Start time: 16:14:57 on Nov 23,2022
+# Loading jikke-calc_one.test_calc_one
+# Loading jikke-calc_one.calc_one_top
+# Loading jikke-calc_one.controller
+# Loading jikke-calc_one.syncro
+# Loading jikke-calc_one.decord
+# Loading jikke-calc_one.register
+# Loading jikke-calc_one.devide
+# Loading jikke-calc_one.halfadder
+# Loading jikke-calc_one.fulladder
+# Loading jikke-calc_one.seg_convert
+# Loading jikke-calc_one.seg_convert_2
+# Loading jikke-calc_one.controller_2
+# Loading jikke-calc_one.dynamic_display
+# Loading jikke-calc_one.add
+# Loading jikke-calc_one.sub
+add wave -position end  sim:/test_calc_one/CLK
+add wave -position end  sim:/test_calc_one/RST_X
+add wave -position end  sim:/test_calc_one/PSW
+add wave -position end  sim:/test_calc_one/SEG_1_OUT
+add wave -position end  sim:/test_calc_one/SEG_SEL_1
+add wave -position end  sim:/test_calc_one/SEG_2_OUT
+add wave -position end  sim:/test_calc_one/SEG_SEL_2
+run -all
+# ** Note: $finish    : E:/jikken-root/work/src/calc/test_calc_one.v(38)
+#    Time: 3300 ps  Iteration: 0  Instance: /test_calc_one
+# 1
+# Break in Module test_calc_one at E:/jikken-root/work/src/calc/test_calc_one.v line 38
+# Compile of add.v was successful.
+# Compile of calc_one_top.v was successful.
+# Compile of controller_sim.v was successful.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of sub.v was successful.
+# Compile of test_calc_one.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui jikke-calc_one.test_calc_one
+# End time: 16:24:35 on Nov 23,2022, Elapsed time: 0:09:38
+# Errors: 0, Warnings: 0
+# vsim -gui jikke-calc_one.test_calc_one 
+# Start time: 16:24:35 on Nov 23,2022
+# Loading jikke-calc_one.test_calc_one
+# Loading jikke-calc_one.calc_one_top
+# Loading jikke-calc_one.controller
+# Loading jikke-calc_one.syncro
+# Loading jikke-calc_one.decord
+# Loading jikke-calc_one.register
+# Loading jikke-calc_one.devide
+# Loading jikke-calc_one.halfadder
+# Loading jikke-calc_one.fulladder
+# Loading jikke-calc_one.seg_convert
+# Loading jikke-calc_one.seg_convert_2
+# Loading jikke-calc_one.controller_2
+# Loading jikke-calc_one.dynamic_display
+# Loading jikke-calc_one.add
+# Loading jikke-calc_one.sub
+add wave -position end  sim:/test_calc_one/CLK
+add wave -position end  sim:/test_calc_one/RST_X
+add wave -position end  sim:/test_calc_one/PSW
+add wave -position end  sim:/test_calc_one/SEG_1_OUT
+add wave -position end  sim:/test_calc_one/SEG_SEL_1
+add wave -position end  sim:/test_calc_one/SEG_2_OUT
+add wave -position end  sim:/test_calc_one/SEG_SEL_2
+run
+run -all
+# ** Note: $finish    : E:/jikken-root/work/src/calc/test_calc_one.v(38)
+#    Time: 3300 ps  Iteration: 0  Instance: /test_calc_one
+# 1
+# Break in Module test_calc_one at E:/jikken-root/work/src/calc/test_calc_one.v line 38
+# Compile of add.v was successful.
+# Compile of calc_one_top.v was successful.
+# Compile of controller_sim.v was successful.
+# Compile of fulladder.v was successful.
+# Compile of halfadder.v was successful.
+# Compile of sub.v was successful.
+# Compile of test_calc_one.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui jikke-calc_one.test_calc_one
+# End time: 16:34:10 on Nov 23,2022, Elapsed time: 0:09:35
+# Errors: 0, Warnings: 0
+# vsim -gui jikke-calc_one.test_calc_one 
+# Start time: 16:34:10 on Nov 23,2022
+# Loading jikke-calc_one.test_calc_one
+# Loading jikke-calc_one.calc_one_top
+# Loading jikke-calc_one.controller
+# Loading jikke-calc_one.syncro
+# Loading jikke-calc_one.decord
+# Loading jikke-calc_one.register
+# Loading jikke-calc_one.devide
+# Loading jikke-calc_one.halfadder
+# Loading jikke-calc_one.fulladder
+# Loading jikke-calc_one.seg_convert
+# Loading jikke-calc_one.seg_convert_2
+# Loading jikke-calc_one.controller_2
+# Loading jikke-calc_one.dynamic_display
+# Loading jikke-calc_one.add
+# Loading jikke-calc_one.sub
+add wave -position end  sim:/test_calc_one/CLK
+add wave -position end  sim:/test_calc_one/RST_X
+add wave -position end  sim:/test_calc_one/PSW
+add wave -position end  sim:/test_calc_one/SEG_1_OUT
+add wave -position end  sim:/test_calc_one/SEG_SEL_1
+add wave -position end  sim:/test_calc_one/SEG_2_OUT
+add wave -position end  sim:/test_calc_one/SEG_SEL_2
+run -all
+# ** Note: $finish    : E:/jikken-root/work/src/calc/test_calc_one.v(38)
+#    Time: 3300 ps  Iteration: 0  Instance: /test_calc_one
+# 1
+# Break in Module test_calc_one at E:/jikken-root/work/src/calc/test_calc_one.v line 38
+>>>>>>> dd60a8e3cb3b8119fd996aba61f3f9033034393e
